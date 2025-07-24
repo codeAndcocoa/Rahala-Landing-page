@@ -71,7 +71,11 @@ Credits to :
 
 ## Tech Stack
 
-**Client:** HTML,CSS,Javascript
+**Client:** HTML, CSS, JavaScript
 
 
+## ScreenShot
+
+
+<img width="1425" height="776" alt="Image" src="https://github.com/user-attachments/assets/1d3aae3e-5ed7-4016-a55a-3cb8296bc608" />
 
