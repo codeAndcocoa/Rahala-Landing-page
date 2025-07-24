@@ -1,8 +1,8 @@
 
-# Rahala Landing Page
+# Rahal Landing Page
 
 This Project is a Landing page for tourism company called 
-"Rahala".
+"Rahal".
 
 
 The page is composed of header , footer and 4 sections.
