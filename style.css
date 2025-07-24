@@ -715,15 +715,17 @@ form button:hover {
 
 }
 
-@media screen and (773px <= width < 800px){
-    .land{
+@media screen and (773px <=width < 800px) {
+    .land {
         width: 40rem;
         height: 40rem;
     }
-    #international-adventures .ring2{
-left:9rem;
+
+    #international-adventures .ring2 {
+        left: 9rem;
     }
-    .details-box{
+
+    .details-box {
         width: 26rem;
         margin-left: 42%;
     }
@@ -919,13 +921,13 @@ left:9rem;
 }
 
 /* Devices between 567px and 620px */
-@media screen and (576px < width <= 620px) {
+@media screen and (576px < width <=620px) {
     .card img {
         width: 12rem;
         height: 12rem;
 
     }
-  
+
 
 }
 
@@ -970,26 +972,29 @@ left:9rem;
 
     /* International adventures */
     .land {
-        width: 21rem;
-        height: 21rem;
-        margin: 4rem auto;
+        width: 20rem;
+        height: 20rem;
     }
 
     #international-adventures .ring1 {
-       
         width: 9rem;
-
-
     }
 
     #international-adventures .ring2 {
-        width: 5rem;
-      
+        width: 5.99rem;
+        left: 40%;
+        top: 50%;
+        transform: translate(-20%,-99%);
+        bottom: auto;
+       
+       
     }
+
 
     #international-adventures .ring3 {
         width: 7.5rem;
-     
+        top: 35%;
+        left: 1rem;
     }
 
     .details-box {
