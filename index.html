@@ -161,11 +161,11 @@
          <h2>Get in touch</h2>
         <form action="/">
             <div class="form-flex">
-                <input type="text" name="yourname" id="yourname">
-                <input type="email" name="youremail" id="youremail" placeholder="Enter a valid email address">
+                <input type="text" name="yourname" id="yourname" aria-labelledby="name">
+                <input type="email" name="youremail" id="youremail" placeholder="Enter a valid email address" aria-labelledby="email">
             </div>
-            <textarea name="" id="" rows="4"></textarea>
-            <button type="button">submit</button>
+            <textarea name="" id="" rows="4"  aria-labelledby="txtboxMultilineLabel"></textarea>
+            <button type="submit" role="button">submit</button>
         </form> 
     </footer>
 </body>
