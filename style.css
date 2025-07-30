@@ -67,6 +67,7 @@ a {
 body {
     font-family: var(--font-family);
     display: flex;
+    scroll-behavior: smooth;
     min-height: 100vh;
 }
 
@@ -76,13 +77,6 @@ section {
     border-bottom: 2px solid var(--main-color1);
     border-top: 2px solid var(--main-color1);
 }
-
-
-
-#international-adventures {
-    border: 12px solid white;
-}
-
 
 
 
@@ -115,7 +109,7 @@ section {
 nav {
     background-color: var(--main-color3);
     padding: 1.3rem;
-    position: relative;
+    position: fixed;
     border-bottom: 2px solid var(--main-color1);
 }
 
@@ -715,7 +709,7 @@ form button:hover {
 
 }
 
-@media screen and (773px <=width < 800px) {
+@media screen and (773px <= width < 800px) {
     .land {
         width: 40rem;
         height: 40rem;
@@ -738,7 +732,9 @@ form button:hover {
     .logo span {
         font-size: 1.88rem;
     }
-
+nav{
+    position:relative;
+}
     .navigation-links i {
         display: block;
     }
