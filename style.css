@@ -752,7 +752,7 @@ form button:hover {
         position: absolute;
         right: 0rem;
         top: 4.7rem;
-        z-index: 2;
+        z-index: 1000;
         visibility: hidden;
 
     }
