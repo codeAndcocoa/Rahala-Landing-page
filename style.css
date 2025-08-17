@@ -735,9 +735,7 @@ form button:hover {
 @media screen and (width <=768px) {
 
     /* NavBar */
-    nav{
-        position:relative;
-    }
+   
     .logo span {
         font-size: 1.88rem;
     }
