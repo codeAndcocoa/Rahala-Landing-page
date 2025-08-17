@@ -109,12 +109,13 @@ section {
 nav {
     background-color: var(--main-color3);
     padding: 1.3rem;
-    position: relative;
+   
     border-bottom: 2px solid var(--main-color1);
       position: fixed;
   top: 0;
   left: 0;
   right: 0;
+z-index: 2;
 }
 
 
